@@ -1,2 +1,9 @@
-# Default ignored files
-/env
+
+env
+project/.idea
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
