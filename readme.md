@@ -28,14 +28,18 @@ or setup IDE terminal & env
 
 `python manage.py startapp app_name`
 
-# git
+# git init
 ```commandline
 git init
 git add .
 git commit -m "commit name"
 ```
-# bla
+## commit
 ```commandline
 # add all staged files in commit
 git commit -a -m "testing git changes"
+```
+## rm
+```commandline
+git rm filename
 ```
