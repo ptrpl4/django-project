@@ -4,7 +4,7 @@
 
 `python3 -m venv env_name`
 
-## instll django in venv
+## install django in venv
 
 `pip install django`
 
@@ -29,7 +29,13 @@ or setup IDE terminal & env
 `python manage.py startapp app_name`
 
 # git
-`git init`
-`git add .`
-`git commit -m "commit name"`
-bla
+```commandline
+git init
+git add .
+git commit -m "commit name"
+```
+# bla
+```commandline
+# add all staged files in commit
+git commit -a -m "testing git changes"
+```
