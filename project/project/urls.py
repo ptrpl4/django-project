@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', include('blog.urls')),
+    # if url contains 'blog/blabla/' it sends blabla to blog.urls
+    path('', include('blog.urls')),
 ]
